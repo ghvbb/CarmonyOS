@@ -1521,3 +1521,7 @@ main() {
 }
 
 main "$@"
+sudo chmod -R 755 /etc/gtk-3.0 /etc/gtk-4.0
+sudo mkdir -p ~/.local/bin
+sudo mv nexfetch  ~/.local/bin
+sudo chmod +x ~/.local/bin/nexfetch
